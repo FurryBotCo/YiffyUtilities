@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "yiffy-utilities",
+  "version": "${version}",
+  "name": "Yiffy Utilities",
+  "description": "General utilities for the YiffyMC server.",
+  "authors": [
+    "Donovan_DMC"
+  ],
+  "contact": {
+    "website": "https://mc.yiff.rocks",
+    "repo": "https://github.com/FurryBotCo/YiffyUtilities"
+  },
+  "license": "MIT",
+  "icon": "assets/yiffy-utilities/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "rocks.yiff.mc.fabric.utilities.Main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.17-alpha.21.7.a"
+  }
+}
